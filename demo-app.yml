@@ -1,0 +1,6 @@
+message: "Hello from Config Server!"
+appVersion: "1.0.0"
+feature:
+  enabled: true
+database:
+  timeout: 5000
