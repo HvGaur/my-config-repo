@@ -1,0 +1,86 @@
+[
+  {
+    "label": "ID",
+    "key" : "id",
+    "jsonPath": "$.RESPONSE.id",
+    "use": true
+  },
+  {
+    "label": "Inventory Status",
+    "key": "inventoryStatus",
+    "jsonPath": "$.RESPONSE.inventoryStatus",
+    "use": true
+  },
+  {
+    "label": "Spec Name",
+    "key": "specName",
+    "jsonPath": "$.RESPONSE.specName",
+    "use": true
+  },
+  {
+    "label": "Fist Project",
+    "key": "fistProject",
+    "jsonPath": "$.RESPONSE.resourceSpecificationRef.fistProject",
+    "use": true
+  },
+  {
+    "label": "Installer",
+    "key": "installer",
+    "jsonPath": "$.RESPONSE.resourceSpecificationRef.installer",
+    "use": false
+  },
+  {
+    "label": "Manufacturer",
+    "key": "manufacturer",
+    "jsonPath": "$.RESPONSE.resourceSpecificationRef.manufacturer",
+    "use": false
+  },
+  {
+    "label": "NOU",
+    "key": "nou",
+    "jsonPath": "$.RESPONSE.resourceSpecificationRef.nou",
+    "use": false
+  },
+  {
+    "label": "Planner",
+    "key": "planner",
+    "jsonPath": "$.RESPONSE.resourceSpecificationRef.planner",
+    "use": false
+  },
+  {
+    "label": "Planning Office",
+    "key": "planningOffice",
+    "jsonPath": "$.RESPONSE.resourceSpecificationRef.planningOffice",
+    "use": false
+  },
+  {
+    "label": "Scheme Capacity Req Date",
+    "key": "schemeCapacityReqDate",
+    "jsonPath": "$.RESPONSE.resourceSpecificationRef.schemeCapacityReqDate",
+    "use": false
+  },
+  {
+    "label": "Scheme Completion Date",
+    "key": "schemeCompletionDate",
+    "jsonPath" : "$.RESPONSE.resourceSpecificationRef.schemeCompletionDate",
+    "use": false
+  },
+  {
+    "label": "Scheme Type",
+    "key": "schemeType",
+    "jsonPath": "$.RESPONSE.resourceSpecificationRef.schemeType",
+    "use": true
+  },
+  {
+    "label": "Technology",
+    "key": "technology",
+    "jsonPath": "$.RESPONSE.resourceSpecificationRef.technology",
+    "use": true
+  },
+  {
+    "label": "Code 1141",
+    "key": "code1141",
+    "jsonPath": "$.RESPONSE.resourceRelationship.resourcegeoLocation.code1141",
+    "use": true
+  }
+]
